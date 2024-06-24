@@ -1,0 +1,176 @@
+body {
+    color: aliceblue;
+    font-family: 'Montserrat';
+    margin: 0;
+    background: linear-gradient(90deg, rgb(56, 0, 0) 1%, rgba(0, 0, 0, 0.882) 92%);
+}
+
+h1 {
+    font-size: 2.3em;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.4em;
+    margin: 25px 60px 25px 60px;
+}
+
+li {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+header {
+    background-color: rgb(55, 10, 10);
+}
+
+.barra-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.barra-top h1 {
+    font-size: 1.9em;
+}
+
+.opcion {
+    color: aliceblue;
+    font-size: 1.3em;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(131, 29, 29);
+}
+
+.opcion:hover {
+    background-color: rgb(99, 0, 0);
+}
+
+.contenido {
+    text-align: center;
+    justify-content: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#reiniciar {
+    color: aliceblue;
+    font-size: 1.3em;
+    background-color: rgb(131, 29, 29);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#reiniciar:hover {
+    background-color: rgb(99, 0, 0);
+}
+
+footer p {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    background-color: rgb(55, 10, 10);
+}
+
+/* Banners */
+.banners{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/1.jpg);
+}
+
+#banner1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/bosquee.jpg);
+}
+
+#banner2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/torree.jpg);
+}
+
+#banner1-1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/barriov.jpg);
+}
+
+#banner1-2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/mansion.jpg);
+}
+
+#banner1c3 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/pintura1c3.jpg);
+}
+
+#banner1c4 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/pintura1c4.jpeg);
+}
+
+#bannerf1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/bannerf1.jpg);
+}
+
+#bannerf2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/banner2.jpg);
+}
+
+#banner1-2-1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/pintura1-2-1.jpg);
+}
+
+#banner1-2-2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/playa.png);
+}
+
+#banner2-1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/reloj.jpg);
+}
+
+#banner2-1-2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/biblioteca.png);
+}
+
+#banner2-2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/pintura2-2.jpeg);
+}
+
+#banner2-2-1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/familia.png);
+}
+
+#banner2-2-2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/espejo1.jpg);
+}
+
+#banner-he {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/fondod1.jpg);
+}
+
+#bannerf {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(imag/final.jpg);
+}
